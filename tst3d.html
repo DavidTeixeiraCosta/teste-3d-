@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste 3D</title>
+    <style>
+#ed{width: 30%;height: 30%; align-items: center; position: relative;}
+body{background-color: antiquewhite;}
+div{width: 30% auto;float: left;}
+hr{height: 5px; color:black; border: solid; background-color: black;}
+h1{text-align: center;}
+#d1{align-items: left; width: 550px;}
+#d2{align-items: right;width: 550px;}
+    </style>
+</head>
+<body>
+    <h1>TESTANDO MODELOS 3D</h1><hr>
+    <div id="d1"><model-viewer id="ed" src="Skull.glb" usemap="#mapaExemplo" camera-controls></model-viewer></div>
+
+    <div id="d2"><model-viewer id="ed" src="Brain_Model.glb"usemap="#mapaExemplo" camera-controls></model-viewer></div>
+
+<div><center><model-viewer id="ed" src="Male_Athlet.glb"usemap="#mapaExemplo"  camera-controls></model-viewer></center>  </div>
+
+    
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+
+</body>
+</html>
